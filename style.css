@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #FBF5F3;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    font-size: 8vmin;
+    color: #FBF5F3;
+    background-color: #522B47;
+  }
+  
+  #reset-btn {
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #7B0828;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #7B0828;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+
+  #mode-select
+  {
+    font: bolder 2.5vmin sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #7B0828;
+    color: #FBF5F3;
+    border-radius: 20px;
+    padding-left: 30px;
+  }
+
+  #mode-selection label
+  {
+    font: bolder 2.5vmin sans-serif;
+    color:#0F0E0E ;
+    font-size: 2.5vmin;
+    font-weight: 900;
+    padding-inline: 10px;
+  }
+
+  h1
+  {
+    font: bolder 2.5% sans-serif;
+    color:#7B0828 ;
+    font-size: 8.5vmin;
+    font-weight: 900;
+    padding-inline: 10px;
+  }
+
+  #reset-btn:hover {
+    box-shadow: 0 0 20px rgba(230, 6, 6, 0.8); 
+    transform: scale(1.05);
+    font-size: 1.35rem;
+  }
+
+  #mode-select:hover {
+    box-shadow: 0 0 20px rgba(230, 6, 6, 0.8); 
+    transform: scale(1.1); 
+    font-size: 1.1rem; 
+  }
+  .box:hover {
+    box-shadow: 0 0 20px rgba(70, 146, 156, 0.8); 
+    transform: scale(1.05); 
+    font-size: 4.35rem; 
+  }
